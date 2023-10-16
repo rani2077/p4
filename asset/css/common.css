@@ -1,0 +1,84 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+@font-face{
+    font-family:'arial';
+    src:url(../font/ArialCE.ttf) format('ttf');
+    font-weight:400;
+}
+@font-face{
+    font-family:'arial';
+    src:url(../font/ArialCEBold.ttf) format('ttf');
+    font-weight:600;
+}
+
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont,'Helvetica 35 Thin', 'arial' , sans-serif;
+    color: #222;
+}
+
+/* font-family: 'Helvetica Neue', sans-serif;
+font-family: 'Helvetica 25 UltraLight', sans-serif;
+font-family: 'Helvetica 35 Thin', sans-serif;
+font-family: 'Helvetica 45 Light', sans-serif;
+font-family: 'Helvetica 55 Roman', sans-serif;
+font-family: 'Helvetica 65 Medium', sans-serif; */
+
+
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin: 1px;
+}
+
+
+.group-title{
+    display: flex;
+    justify-content: space-between;
+}
+.group-title .main-title{
+    font-size: 15px;
+}
+.group-title .view-all{
+    font-size: 13px;
+    color: #bcbcbc;
+    position: relative;
+    padding-right: 11px;
+
+}
+.group-title .view-all::after{
+    content:'';
+    vertical-align:top;
+    background: url(../images/link-all.png) left top/6px 10px scroll no-repeat;
+    background-size: cover;
+    width: 6px;
+    height: 10px;
+    display: inline-block;
+    /* margin-left: 5px; */
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.no-scroll{
+    overflow:hidden;
+}
+
+
+.wrapper{
+    margin-top: 88px;
+}
+
+
+/* 이미지창고 */
+
+
+.sc-movie .info-item .score::before,
+.header .logo{
+    background-image: url(../images/sprite.png);
+    background-size: 200px 200px;   
+}

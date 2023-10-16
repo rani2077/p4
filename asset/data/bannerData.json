@@ -1,0 +1,22 @@
+{
+    "items":[
+        {
+            "id":"",
+            "url":"",
+            "imgSrc":"./asset/images/visual1.jpg",
+            "title":"고속도로가족"
+        },
+        {
+            "id":"",
+            "url":"",
+            "imgSrc":"./asset/images/visual2.jpg",
+            "title":"CGV우리카드 프로모션이벤트"
+        },
+        {
+            "id":"",
+            "url":"",
+            "imgSrc":"./asset/images/visual3.jpg",
+            "title":"동감"
+        }
+    ]
+}
